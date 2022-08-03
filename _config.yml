@@ -21,12 +21,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "heegong's blog"                          # the main title
+title: "heegong"                          # the main title
 
 tagline: "TeamH4C, Zero Day Researcher"   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  "heegong's blog"
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
