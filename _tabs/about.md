@@ -20,9 +20,11 @@ order: 4
 - 2022 Wacon Jnior Final
 - 2022 Break the syntax CTF 13th (TeamH4C)
 - 2022 Dice CTF 19th (TeamH4C)
+- 2022 YISF Final
 
 ## CVE
-- [CVE-2022-24924](https://heegong.github.io/posts/CVE-2022-24924/)
+- [CVE-2022-24924](https://heegong.github.io/posts/CVE-2022-24924-Improper-access-control-vulnerability-in-LiveWallpaperService/)
 - LVE-HPC-22001 (Undisclosed)
 - LVE-HPC-22002 (Undisclosed)
 - LVE-HPC-22002 (Undisclosed)
+- [CVE-2022-39846](https://heegong.github.io/posts/CVE-2022-39846-DLL-hijacking-vulnerability-in-Smart-Switch-PC/)
