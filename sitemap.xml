@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>https://heegong.github.io/posts/ASUS-AuraSync-Kernel-Stack-Based-Buffer-Overflow-Local-Privilege-Escalation/</loc>
+      
+        <lastmod>2022-11-01T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/CVE-2022-39846-DLL-hijacking-vulnerability-in-Smart-Switch-PC/</loc>
+      
+        <lastmod>2022-09-11T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/Advaned-Installer-Local-Privilege-Escalation-Vulnerability/</loc>
+      
+        <lastmod>2022-06-12T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/CVE-2022-24924-Improper-access-control-vulnerability-in-LiveWallpaperService/</loc>
+      
+        <lastmod>2021-11-30T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+</urlset>
