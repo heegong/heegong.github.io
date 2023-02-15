@@ -1,6 +1,6 @@
 ---
-title : "ASUS AuraSync Kernel Stack Based Buffer Overflow Local Privilege Escalation"
-excerpt: "ASUS AuraSync Kernel Stack Based Buffer Overflow Local Privilege Escalation"
+title : "CVE-2022-44898: ASUS AuraSync Kernel Stack Based Buffer Overflow Local Privilege Escalation"
+excerpt: "CVE-2022-44898"
 
 categories:
     - "0-day"
@@ -10,8 +10,8 @@ tags:
 
 ## 0x01: Details
 
-- Title : ASUS AuraSync Kernel Stack Based Buffer Overflow Local Privilege Escalation
-- CVE ID :
+- Title : CVE-2022-44898: ASUS AuraSync Kernel Stack Based Buffer Overflow Local Privilege Escalation
+- CVE ID : CVE-2022-44898
 - Advisory Published: 2022/08/10
 - Advisory URL : [https://www.asus.com/content/ASUS-Product-Security-Advisory/](https://www.asus.com/content/ASUS-Product-Security-Advisory/)
 - Vender URL : [https://www.asus.com/](https://www.asus.com/)
@@ -195,6 +195,8 @@ HeeChan Kim (@heegong123) of TeamH4C
 - 2022/08/09 : I was provided with a patched version of the vulnerability.
 - 2022/09/18 : My name is inducted into the Asus Hall of Fame.
 - 2022/10/11 : The latest version update notice has been posted in the ASUS Latest security updates.
+- 2022/11/01 : Request a CVE id via MITRE.
+- 2023/02/07 : Received a call from MITRE for CVE-2022-44898.
 
 ## 0x09: Reference
 

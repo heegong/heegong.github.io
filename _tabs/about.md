@@ -28,3 +28,6 @@ order: 4
 - LVE-HPC-22002 (Undisclosed)
 - LVE-HPC-22002 (Undisclosed)
 - [CVE-2022-39846](https://heegong.github.io/posts/CVE-2022-39846-DLL-hijacking-vulnerability-in-Smart-Switch-PC/)
+- [CVE-2022-45422](https://heegong.github.io/posts/CVE-2022-45422-LG-Smart-Share-Local-Privilege-Escalation-Vulnerability/)
+- [CVE-2022-39909](https://heegong.github.io/posts/CVE-2022-39909-Insufficient-verification-of-data-authenticity-vulnerability-in-Samsung-Gear-IconX-PC-Manager/)
+- [CVE-2022-44898](https://heegong.github.io/posts/ASUS-AuraSync-Kernel-Stack-Based-Buffer-Overflow-Local-Privilege-Escalation/)
