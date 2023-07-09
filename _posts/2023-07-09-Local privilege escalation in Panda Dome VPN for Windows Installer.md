@@ -192,7 +192,7 @@ BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpReserved) {
 
 This vulnerability affects the following product:
 
-- Panda Security VPN Version ≤ 15.14.8
+- Panda Security VPN Version < 15.14.8
 
 ## 0x07: Credit information
 
