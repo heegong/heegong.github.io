@@ -1,38 +1,35 @@
 ---
-title : "CVE-2022-45422: LG Smart Share Local Privilege Escalation Vulnerability"
-excerpt: "CVE-2022-45422"
+title : "Local privilege escalation in Panda Dome VPN for Windows Installer"
+excerpt: "Local privilege escalation in Panda Dome VPN for Windows Installer"
 
 categories:
     - "0-day"
 tags:
-    - [LG, 0-day, CVE, CVE-2022-45422, EoP, LPE, PE, DLL hijacking, Mitre]
+    - [Panda Security, 0-day, CVE, EoP, Mitre, LPE]
 ---
+
 
 ## 0x01: Details
 
-- Title: LG Smart Share Local Privilege Escalation Vulnerability
-- CVE ID: CVE-2022-45422
-- Vendor ID : LVE-HOT-220005
-- Advisory Published: 2022/11/24
-- Advisory URL : [https://lgsecurity.lge.com/bulletins/pc#updateDetails](https://lgsecurity.lge.com/bulletins/pc#updateDetails)
-- CVSS : 7.8 HIGH(CVSS Version 3.x)
+- Title: Local privilege escalation in Panda Dome VPN for Windows Installer
+- CVE ID: None
+- Vendor ID : None
+- Advisory Published: 2023/07/05
+- Advisory URL : [https://www.pandasecurity.com/en/support/card?id=100080](https://www.pandasecurity.com/en/support/card?id=100080)
 
 ## 0x02: Test Environment
 
-- Samsung Smart Switch for Windows : 4.3.22063_6
-- OS : Windows 10 Pro 64-bit 21H2 (build 19044.1826)
+Panda Dome Version : 21.01.00
+
+OS : Windows 10 Pro 64-bit 21H2 (build 19044.1826)
 
 ## 0x03: Vulnerability details
 
-When LG SmartShare is installed, local privilege escalation is possible through DLL Hijacking attack.
+Vulnerability that allows a local attacker to gain SYSTEM privileges by exploiting administrator privileges, and that enables the server thread to perform actions on behalf of the client, but within the limits of the client's security context.
 
 ## 0x04: Technical description
 
-When installing the LG Smart Share program, various DLLs are loaded. At this time, `!.DLL` is loaded. This `!.DLL` is loaded from the directory registered in user environment variable and system environment variable. By locating the `!.DLL` created by an attacker, an installer with administrator privileges can load this DLL and escalate privileges to SYSTEM, thereby launching a privilege escalation attack by DLL hijacking.
-
-I discovered this vulnerability through [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon).
-
-![Untitled](/files/CVE-2022-45422%20LG%20Smart%20Share%20Local%20Privilege%20Escalation%20Vulnerability/Untitled.png)
+Many DLLs are loaded from the directory where the Panda Security VPN installer file PANDAVPN.exe is located. If these DLLs are not in the directory, DLLs are loaded from the `C:\Windows\SysWOW64` directory. Among these Dlls, `TextShaping.dll` is loaded, and this DLL load is done with Administrator privileges. So, by placing `TextShaping.dll` in the directory where the Panda Security VPN installer file is located, you can gain SYSTEM privileges by abusing Administrator privileges.
 
 ## 0x05: Proof-of-Concept (PoC)
 
@@ -186,16 +183,16 @@ BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpReserved) {
 }
 ```
 
-1. Use Visual Studio 2019
-2. Compile the project in the DLL directory in x86 Release mode
-3. Rename the compiled dll to `!.Dll` and place it in the `%USERPROFILE%\AppData\Local\Microsoft\WindowsApps` directory
-4. Run LG Smart Share Installer
+1. Use Visual Studio 2019.
+2. Compile the project in the DLL directory in x86 Release mode.
+3. Rename the compiled dll to `TextShaping.dll` and place it in the same directory as PANDAVPN.exe.
+4. Run `PANDAVPN.exe` to perform Panda Security VPN installation.
 
 ## 0x06: Affected Products
 
 This vulnerability affects the following product:
 
-- LG Smart Share Version ≤ 2.3.1712.1201
+- Panda Security VPN Version ≤ 15.14.8
 
 ## 0x07: Credit information
 
@@ -203,13 +200,12 @@ HeeChan Kim (@heegong123) of TeamH4C
 
 ## 0x08: TimeLine
 
-- 2022/06/09 : First time contacted via LG Product Security.
-- 2022/06/10 : I received a call from LG Product Security to analyze the vulnerability.
-- 2022/06/28 : I recevied a file which is patched via LG Product Security.
-- 2022/11/21 : The vulnerability has been patched, and CVE-2022-45422 (LVE-HOT-220005) has been issued.
+- 2022/08/01 : First time contacted via Panda Security Email(secure@pandasecurity.com).
+- 2022/08/10 : I recevied a file which is patched via Panda Security.
+- 2023/07/05 : The vulnerability has been patched, and I have been notified that the vulnerability has been disclosed.
+- 2023/07/09 : Request a CVE id via MITRE.
 
 ## 0x09: Reference
 
-- [https://lgsecurity.lge.com/bulletins/pc#updateDetails](https://lgsecurity.lge.com/bulletins/pc#updateDetails)
-- [https://www.cve.org/CVERecord?id=CVE-2022-45422](https://www.cve.org/CVERecord?id=CVE-2022-45422)
-- [https://nvd.nist.gov/vuln/detail/CVE-2022-45422](https://nvd.nist.gov/vuln/detail/CVE-2022-45422)
+- [https://www.pandasecurity.com/en/homeusers/vpn/](https://www.pandasecurity.com/en/homeusers/vpn/)
+- [https://www.pandasecurity.com/en/support/card?id=100080](https://www.pandasecurity.com/en/support/card?id=100080)

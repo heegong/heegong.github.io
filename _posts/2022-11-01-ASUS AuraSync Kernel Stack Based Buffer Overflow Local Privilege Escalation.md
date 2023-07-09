@@ -22,11 +22,11 @@ OS : windows 10 pro 64-bit 21H2 (build 19044.1826)
 
 ASUS AuraSync : 1.07.79_V2.2
 
-## 0x03: Vulerability details
+## 0x03: Vulnerability details
 
 The kernel driver MsIo64.sys is included in Asus AuraSync 1.07.79. A stack-based buffer overflow exists in this kernel driver IOCTL dispatch function.
 
-## 0x04: Techincal description
+## 0x04: Technical description
 
 When you download ASUS AURA SYNC software, MsIo64.sys driver is installed together. In the IOCTL code of this driver, the memmove function is called at 0x80102040, but there is no path check at this time, so a stack based buffer overflow vulnerability may occur.
 
