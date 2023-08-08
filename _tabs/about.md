@@ -6,7 +6,7 @@ order: 4
 
 
 ## Information
-- Semyeong Computer High School 3nd year student in South Korea
+- Semyeong Computer High School 3rd year student in South Korea
 - KITRI Best of the Best 10th Vulnerability Analysis
 - TeamSCA in Semyeong Computer High School
 - TeamH4C
@@ -15,7 +15,7 @@ order: 4
 - 2021 ShaktiCTF 6th (TeamH4C)
 - 2021 YISF 2nd
 - 2021 White Hat Contest Junior Final
-- 2021 Cyberguardians 3th (TeamSCA)
+- 2021 Cyberguardians 3rd (TeamSCA)
 - 2022 Wacon Jnior Final
 - 2022 YISF Final
 - 2022 CCE Final
