@@ -1,6 +1,6 @@
 ---
-title : "Local privilege escalation in Panda Dome VPN for Windows Installer"
-excerpt: "Local privilege escalation in Panda Dome VPN for Windows Installer"
+title : "CVE-2023-37849: Local privilege escalation in Panda Dome VPN for Windows Installer"
+excerpt: "CVE-2023-37849"
 
 categories:
     - "0-day"
@@ -12,10 +12,10 @@ tags:
 ## 0x01: Details
 
 - Title: Local privilege escalation in Panda Dome VPN for Windows Installer
-- CVE ID: None
-- Vendor ID : None
+- CVE ID: CVE-2023-37849
 - Advisory Published: 2023/07/05
 - Advisory URL : [https://www.pandasecurity.com/en/support/card?id=100080](https://www.pandasecurity.com/en/support/card?id=100080)
+- CVSS : 6.5 MEDIUM(CVSS Version 3.x)
 
 ## 0x02: Test Environment
 
@@ -204,8 +204,10 @@ HeeChan Kim (@heegong123) of TeamH4C
 - 2022/08/10 : I recevied a file which is patched via Panda Security.
 - 2023/07/05 : The vulnerability has been patched, and I have been notified that the vulnerability has been disclosed.
 - 2023/07/09 : Request a CVE id via MITRE.
+- 2023/07/13 : Received a call from MITRE for CVE-2023-37849.
 
 ## 0x09: Reference
 
 - [https://www.pandasecurity.com/en/homeusers/vpn/](https://www.pandasecurity.com/en/homeusers/vpn/)
 - [https://www.pandasecurity.com/en/support/card?id=100080](https://www.pandasecurity.com/en/support/card?id=100080)
+- [https://nvd.nist.gov/vuln/detail/CVE-2023-37849](https://nvd.nist.gov/vuln/detail/CVE-2023-37849)
