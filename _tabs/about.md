@@ -50,3 +50,4 @@ order: 4
 - [CVE-2022-4894](https://heegong.github.io/posts/CVE-2022-4894-Certain-HP-and-Samsung-printer-software-Potential-elevation-of-privileges/)
 - [CVE-2023-37849](https://heegong.github.io/posts/Local-privilege-escalation-in-Panda-Dome-VPN-for-Windows-Installer/)
 - [CVE-2023-41929](https://heegong.github.io/posts/CVE-2023-41929-Samsung-Card-UFD-Authentication-Utility-for-Windows-Installer-Local-Privilege-Escalation/)
+- [CVE-2022-4956](https://heegong.github.io/posts/Advaned-Installer-Local-Privilege-Escalation-Vulnerability/)
