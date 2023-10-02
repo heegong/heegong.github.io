@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>https://heegong.github.io/posts/CVE-2023-41929-Samsung-Card-UFD-Authentication-Utility-for-Windows-Installer-Local-Privilege-Escalation/</loc>
+      
+        <lastmod>2023-09-24T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/CVE-2022-4894-Certain-HP-and-Samsung-printer-software-Potential-elevation-of-privileges/</loc>
+      
+        <lastmod>2023-09-24T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/CVE-2023-30673-Possible-to-delete-arbitrary-directory-vulnerability-in-Smart-Switch-PC/</loc>
+      
+        <lastmod>2023-07-28T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/CVE-2023-30672-Improper-privilege-management-vulnerability-in-Samsung-Smart-Switch-for-Windows-Installer/</loc>
+      
+        <lastmod>2023-07-27T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/Local-privilege-escalation-in-Panda-Dome-VPN-for-Windows-Installer/</loc>
+      
+        <lastmod>2023-07-09T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/CVE-2022-39909-Insufficient-verification-of-data-authenticity-vulnerability-in-Samsung-Gear-IconX-PC-Manager/</loc>
+      
+        <lastmod>2022-12-06T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/CVE-2022-45422-LG-Smart-Share-Local-Privilege-Escalation-Vulnerability/</loc>
+      
+        <lastmod>2022-11-24T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/ASUS-AuraSync-Kernel-Stack-Based-Buffer-Overflow-Local-Privilege-Escalation/</loc>
+      
+        <lastmod>2022-11-01T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/CVE-2022-39846-DLL-hijacking-vulnerability-in-Smart-Switch-PC/</loc>
+      
+        <lastmod>2022-09-11T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/Advaned-Installer-Local-Privilege-Escalation-Vulnerability/</loc>
+      
+        <lastmod>2022-06-12T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://heegong.github.io/posts/CVE-2022-24924-Improper-access-control-vulnerability-in-LiveWallpaperService/</loc>
+      
+        <lastmod>2021-11-30T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+</urlset>
